@@ -106,8 +106,9 @@ get_space () {
   echo $SPACES
 }
 
-_1LEFT=" [ $_PATH ]"
-_1RIGHT="$_USERNAME"
+_1RIGHT=" $_PATH  "
+#_1LEFT=" [ $_PATH ]"
+_1LEFT="$_USERNAME"
 
 bureau_precmd () {
   _1SPACES=`get_space $_1LEFT $_1RIGHT`
