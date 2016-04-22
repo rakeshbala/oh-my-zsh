@@ -116,7 +116,7 @@ bureau_precmd () {
 }
 
 setopt prompt_subst
-PROMPT=' ❯ '
+PROMPT=' > '
 #PROMPT='❯ $_LIBERTY '
 RPROMPT='$(vi_mode_prompt_info) $(bureau_git_prompt)'
 
