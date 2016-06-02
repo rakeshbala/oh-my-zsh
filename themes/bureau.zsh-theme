@@ -106,7 +106,7 @@ get_space () {
   echo $SPACES
 }
 
-_1LEFT=" [ $_PATH ]"
+_1LEFT=" %{$fg_bold[yellow]%}[%{$reset_color%} $_PATH %{$fg_bold[yellow]%}]%{$reset_color%}"
 _1RIGHT="$_USERNAME"
 
 bureau_precmd () {
